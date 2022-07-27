@@ -14,6 +14,7 @@ namespace PhoneBook.Persistence.EntityTypeConfigurations
         public void Configure(EntityTypeBuilder<Person> builder)
         {
             builder.HasKey(t => t.Id);
+            builder.Property(t => t.UserId).IsRequired();
             builder.Property(t => t.Name).IsRequired().HasMaxLength(512);
             builder.Property(t => t.PhoneNumber).IsRequired().HasMaxLength(12);
         }
