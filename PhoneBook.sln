@@ -5,19 +5,17 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBook.Core", "PhoneBook.Core", "{CDD7029B-5E1B-4F04-ACD5-DE9F31D9CD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Domain", "PhoneBook.Domain\PhoneBook.Domain.csproj", "{FF1E4061-6918-444B-9789-4926A1C47876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.Domain", "PhoneBook.Domain\PhoneBook.Domain.csproj", "{FF1E4061-6918-444B-9789-4926A1C47876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Application", "PhoneBook.Application\PhoneBook.Application.csproj", "{D714946E-C095-4C9A-989A-C2BC6C20F21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.Application", "PhoneBook.Application\PhoneBook.Application.csproj", "{D714946E-C095-4C9A-989A-C2BC6C20F21F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBook.Infrastructure", "PhoneBook.Infrastructure", "{80D8835D-837D-427F-9CC2-BFFF43076B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Persistence", "PhoneBook.Persistence\PhoneBook.Persistence.csproj", "{B9C2BDAB-6F67-4E8D-AB3F-DBD9546ACC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.Persistence", "PhoneBook.Persistence\PhoneBook.Persistence.csproj", "{B9C2BDAB-6F67-4E8D-AB3F-DBD9546ACC59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBook.Presentation", "PhoneBook.Presentation", "{BA9AE100-54A9-498F-8FD0-2582FB3264B7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBook.Tests", "PhoneBook.Tests", "{7032ED95-3C7A-402D-A706-EAA537CB633F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.WebApi", "PhoneBook.WebApi\PhoneBook.WebApi.csproj", "{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.WebApi", "PhoneBook.WebApi\PhoneBook.WebApi.csproj", "{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
