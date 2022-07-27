@@ -25,6 +25,7 @@ namespace PhoneBook.WebApi.Definitions.Common
 
             services.AddApplication();
             services.AddPersistence(configuration);
+            services.AddControllers();
 
             services.AddCors(options =>
             {

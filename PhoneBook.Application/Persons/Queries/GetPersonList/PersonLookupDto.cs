@@ -7,7 +7,7 @@ namespace PhoneBook.Application.Persons.Queries.GetPersonList
     public class PersonLookupDto : IMapWith<Person>
     {
         public Guid Id { get; set; }
-        public Guid Name { get; set; }
+        public string Name { get; set; }
         public void Mapping(Profile profile)
         {
             profile.CreateMap<Person, PersonLookupDto>()
