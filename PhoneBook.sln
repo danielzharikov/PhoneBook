@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBook.Presentation", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBook.WebApi", "PhoneBook.WebApi\PhoneBook.WebApi.csproj", "{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{70C24C19-B38D-4012-9D0C-950762C9D332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook.Tests", "PhoneBook.Tests\PhoneBook.Tests.csproj", "{1586D0E7-12ED-4908-9010-2949BA9FE198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1586D0E7-12ED-4908-9010-2949BA9FE198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1586D0E7-12ED-4908-9010-2949BA9FE198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1586D0E7-12ED-4908-9010-2949BA9FE198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1586D0E7-12ED-4908-9010-2949BA9FE198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{D714946E-C095-4C9A-989A-C2BC6C20F21F} = {CDD7029B-5E1B-4F04-ACD5-DE9F31D9CD26}
 		{B9C2BDAB-6F67-4E8D-AB3F-DBD9546ACC59} = {80D8835D-837D-427F-9CC2-BFFF43076B1B}
 		{7D0B9FC1-7BB7-4C9F-8DF6-1E1CF3003EA7} = {BA9AE100-54A9-498F-8FD0-2582FB3264B7}
+		{1586D0E7-12ED-4908-9010-2949BA9FE198} = {70C24C19-B38D-4012-9D0C-950762C9D332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DEBA779-6E68-4150-89F3-52201669D2EB}
